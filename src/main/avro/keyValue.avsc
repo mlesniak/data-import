@@ -1,0 +1,11 @@
+{"namespace": "com.mlesniak.data.in.schema",
+ "type": "record",
+ "name": "KeyValue",
+ "fields": [
+     {"name": "year", "type": ["int", "null"]},
+     {"name": "month", "type": ["int", "null"]},
+     {"name": "day", "type": ["int", "null"]},
+     {"name": "key", "type": ["int", "null"]},
+     {"name": "value", "type": ["string", "null"]}
+ ]
+}
